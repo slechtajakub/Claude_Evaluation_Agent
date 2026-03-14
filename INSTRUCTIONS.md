@@ -52,8 +52,8 @@ Jakmile mám PDF, spustím OCR a extrahuju:
 - **Skóre/Procento** → Konverze na číslo 1–100 (BEZ znaku "%")
 
 **Příklad:**
-- PDF: "Michaela Krejčí — Hodnocení: 67%"
-- Extrakt: `Michaela Krejčí: 67`
+- PDF: "Michaela Nová — Hodnocení: 67%"
+- Extrakt: `Michaela Nová: 67`
 
 ---
 
@@ -76,7 +76,7 @@ Parsuju vstupní text na 3 komponenty:
 - Použij `get_sheet_data(sheet=LIST, range="B13:B100")`
 - Hledej přesné či částečné shody jmen
 - Ignoruj diakritiku
-- Příklad: `Michaela Krejčí` (PDF) = `Krejčí Michaela` (tabulka) ✓
+- Příklad: `Michaela Nová` (PDF) = `Nová Michaela` (tabulka) ✓
 
 **PRAVIDLO #2: Ignoruj strukturu tabulky**
 - Tabulka má strukturu: "finální" → "před opravou" → "odevzdáno" (3 řádky na žáka)
@@ -100,8 +100,8 @@ Parsuju vstupní text na 3 komponenty:
 ```
 ranges = {
   f"{SLOUPEC}5:5": [["CÍL"]],          # Napíš CÍL do řádku 5
-  f"{SLOUPEC}17:17": [[67]],            # Michaela Krejčí, řádek 17
-  f"{SLOUPEC}35:35": [[80]]             # Viola Novotná, řádek 35
+  f"{SLOUPEC}17:17": [[67]],            # Michaela Nová, řádek 17
+  f"{SLOUPEC}35:35": [[80]]             # Viola Doležalová, řádek 35
 }
 batch_update_cells(sheet=LIST, ranges=ranges)
 ```
