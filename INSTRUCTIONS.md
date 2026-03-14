@@ -121,8 +121,8 @@ Po zápisu **VŽDY:**
 
 Zapsáno do listu "Př 7.A", sloupec M:
 - Řádek 5 (cíl): "Savci cvičení" ✓
-- Michaela Krejčí (řádek 17): 67 ✓
-- Viola Novotná (řádek 35): 80 ✓
+- Michaela Nová (řádek 17): 67 ✓
+- Viola Doležalová (řádek 35): 80 ✓
 
 Status: Vše v pořádku ✓
 ```
