@@ -11,6 +11,8 @@ Učitel ručně přepisu hodnocení ze skenů PDF (50+ žáků) do tabulky. Proc
 - 📊 **0 chyb** (automatické mapování podle jmen)
 - 🔄 **Repeatable workflow** (jednou nastavit, běží neustále)
 
+<img width="1418" height="948" alt="Hvezdarna_Jira_manual_testing" src="(https://github.com/slechtajakub/Claude_Evaluation_Agent/blob/main/workflow.png)" />
+
 ## How to Use (30 seconds)
 
 1. Nahraj PDF (skoenovaný výstup žáka se jménem a hodnocením) do Claude Project chatu
