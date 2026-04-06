@@ -11,7 +11,7 @@ Učitel ručně přepisu hodnocení ze skenů PDF (50+ žáků) do tabulky. Proc
 - 📊 **0 chyb** (automatické mapování podle jmen)
 - 🔄 **Repeatable workflow** (jednou nastavit, běží neustále)
 
-<img width="1418" height="948" alt="Evaluation Agent Workflow" src="(https://github.com/slechtajakub/Claude_Evaluation_Agent/blob/main/workflow.png?raw=true)" />
+<img width="1418" height="948" alt="Evaluation Agent Workflow" src="https://github.com/slechtajakub/Claude_Evaluation_Agent/blob/main/workflow.png?raw=true" />
 
 ## How to Use (30 seconds)
 
